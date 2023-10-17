@@ -4,12 +4,6 @@ background: linear-gradient(90deg, rgba(215,215,225,1) 0%, rgba(96,89,89,0.41507
 
 }
 
-.container {
-  width: 960px;
-  margin: 0 auto;
-  overflow: hidden;  
-}
-
 #title{
   font-family: 'Lato', sans-serif;
   font-size: 96px;
@@ -64,16 +58,54 @@ nav#main-navbar ul li a:hover {
   
 }
 
+#fixedwrapper {
+  width: 960px;
+  margin: 0 auto;
+  border: 10px solid black;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+#images {
+  float: left;
+  width: 400px;
+  margin: 0 20px 0 0;
+  
+}
+
+#main {
+  float: left;
+  width: 500px;
+  margin: 0 20px 0 0;
+  
+}
+
+#main p {
+  float: left;
+  width: 500px;
+  margin-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  
+}
+
+#bspacer1 {
+  padding-top: 220px;
+
+}
+
+#bspacer2 {
+  padding-top: 400px;
+}
+
+#bspacer3 {
+  padding-top: 270px;
+}
 
 h2 {
   font-family: 'Lato', sans-serif;
   font-size: 36px;
-  text-align: left;
+  text-align: center;
   
 }
 
-p {
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  text-align: left;
-}
