@@ -1,12 +1,36 @@
 body {
-background: rgb(215,215,225);
-background: linear-gradient(90deg, rgba(215,215,225,1) 0%, rgba(96,89,89,0.41507941067051823) 100%);	
+  margin: 0;
+  padding: 0;
+  
+}
 
+.gamebody {
+  background-image: url("../images/starbackground.jpg");
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  color: gold;
+}
+
+.bookbody {
+  background-image: url("../images/paper.jpg");	
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 48px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  text-align: center;
 }
 
 #title{
-  font-family: 'Lato', sans-serif;
-  font-size: 96px;
+  font-family: "Lato", sans-serif;
+  font-size: 64px;
   border-radius: 10px;
   padding-bottom: 40px;
   text-align: center;
@@ -39,7 +63,6 @@ nav#main-navbar ul li {
 }
 
 nav#main-navbar ul li a {
-  
   display: block;
   background: rgb(123,117,187);
   background: linear-gradient(90deg, rgba(123,117,187,1) 0%, rgba(224,141,7,1) 100%);
@@ -55,33 +78,36 @@ nav#main-navbar ul li a {
 nav#main-navbar ul li a:hover {
   background: white;
   color: black;
-  border-radius: 20px;
+  
   
 }
 
 #fixedwrapper {
   width: 960px;
+  height: 2700px;
   margin: 0 auto;
   border: 10px solid black;
   margin-top: 10px;
   padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgb(123,117,187);
+  background: linear-gradient(90deg, rgba(123,117,187,1) 0%, rgba(224,141,7,1) 100%);
 }
 
-#images {
+#imagesf {
   float: left;
   width: 400px;
-  margin: 0 20px 0 0;
-  
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
-#main {
+#mainf {
   float: left;
-  width: 500px;
-  margin: 0 20px 0 0;
-  
+  width: 520px;
+  margin-top: 20px;
 }
 
-#main p {
+#mainf p {
   float: left;
   width: 500px;
   margin-left: 20px;
@@ -103,17 +129,58 @@ nav#main-navbar ul li a:hover {
   padding-top: 340px;
 }
 
-h2 {
-  font-family: 'Lato', sans-serif;
-  font-size: 48px;
-  text-align: center;
+
+
+
+#wrapperg {
+  width: 1800px;
+  height: 2100px;
+  margin: 0 auto;
+  outline: 3px solid gold;
 }
 
-h3 {
-  font-family: 'Lato', sans-serif;
-  font-size: 36px;
-  text-align: center;
+#mainbodyg {
+  float: left;
+  width: 600px;
+  margin: 0;
+  margin-left: 600px;
+  margin-right: 100px;
+  margin-top: 10px;
+  outline: 3px solid gold;
+  display: inline;
+  
 }
+
+
+
+#imagerg {
+  float: left;
+  width: 400px;
+  margin: 0;
+  margin-top: 400px;
+  outline: 3px solid blue;
+  margin-left: 0px;
+}
+
+#imagelg {
+  float: left;
+  width: 400px;
+  margin: 0;
+  margin-top: 400px;
+  margin-left: -1200px;
+  outline: 3px solid red;
+}
+
+#sideimage {
+  max-width: 400px;
+}
+
+#vid{
+  margin-left: 50px;
+}
+
+
+
 
 
 
