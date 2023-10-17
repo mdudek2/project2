@@ -10,6 +10,7 @@ background: linear-gradient(90deg, rgba(215,215,225,1) 0%, rgba(96,89,89,0.41507
   border-radius: 10px;
   padding-bottom: 40px;
   text-align: center;
+  
 }
 
 nav#main-navbar{
@@ -90,22 +91,29 @@ nav#main-navbar ul li a:hover {
 }
 
 #bspacer1 {
-  padding-top: 220px;
+  padding-top: 300px;
 
 }
 
 #bspacer2 {
-  padding-top: 400px;
+  padding-top: 420px;
 }
 
 #bspacer3 {
-  padding-top: 270px;
+  padding-top: 340px;
 }
 
 h2 {
   font-family: 'Lato', sans-serif;
+  font-size: 48px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
   font-size: 36px;
   text-align: center;
-  
 }
+
+
 
