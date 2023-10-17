@@ -6,7 +6,6 @@
 
 nav#main-navbar{
   background-color: grey;
-  
 }
 
 #navbar-container {
@@ -28,7 +27,6 @@ nav#main-navbar ul {
 nav#main-navbar ul li {
   float: left;
   margin: 20px;
-  
 }
 
 nav#main-navbar ul li a {
