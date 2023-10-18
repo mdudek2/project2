@@ -22,7 +22,6 @@ body {
   background: rgb(158,149,149);
   background: linear-gradient(90deg, rgba(158,149,149,1) 0%, rgba(255,255,255,1) 50%, rgba(158,149,149,1) 100%);
   font-family: "Times New Roman", Times, serif;
-  font-size; 24px;
 }
 
 h1 {
