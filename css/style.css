@@ -194,7 +194,11 @@ nav#main-navbar ul li a:hover {
   font-size: 18px;
 }
 
-#sideimage {
+#sideimager {
+  max-width: 400px;
+}
+
+#sideimagel {
   max-width: 400px;
 }
 
