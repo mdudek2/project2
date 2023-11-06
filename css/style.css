@@ -124,6 +124,10 @@ ul {
   margin-top: 40px;
   outline: 3px solid gold;
   display: inline;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #imagerg {
