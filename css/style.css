@@ -41,12 +41,6 @@ h3 {
   text-align: center;
 }
 
-p {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 24px;
-  text-align: center
-}
-
 ul {
   display: table;
   margin: 0 auto; 
@@ -92,8 +86,7 @@ ul {
   width: 500px;
   margin-left: 20px;
   font-family: "Times New Roman", Times, serif;
-  font-size: 24px;
-  
+  font-size: 24px; 
 }
 
 #bspacer1 {
@@ -128,6 +121,8 @@ ul {
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
 }
 
 #imagerg {
@@ -172,6 +167,9 @@ ul {
   margin: 0;
   outline: 3px solid black;
   margin-top: 150px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  text-align: center
 }
 
 nav#main-navbar{
@@ -181,8 +179,7 @@ nav#main-navbar{
 #navbar-container {
   width: 100%;
   position: relative;
-  text-align: center;
-  
+  text-align: center; 
 }
 
 #main-navbar a {
@@ -199,7 +196,6 @@ nav#main-navbar ul {
   text-align: center;
   display: inline-block;
   vertical-align: top;
- 
 }
 
 nav#main-navbar ul li {
@@ -218,7 +214,6 @@ nav#main-navbar ul li a {
   width: 200px;
   padding: 20px 20px 20px 20px;
   border-radius: 4px;
- 
 }
 
 nav#main-navbar ul li a:hover {
