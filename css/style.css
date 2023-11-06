@@ -181,6 +181,7 @@ nav#main-navbar{
 
 nav#main-navbar ul {
   list-style-type: none;
+  text-decoration: none;
   padding: 0;
   overflow: hidden;
   text-align: center;
@@ -191,6 +192,7 @@ nav#main-navbar ul {
 nav#main-navbar ul li {
   float: left;
   margin: 20px;
+  text-decoration: none;
 }
 
 nav#main-navbar ul li a {
@@ -203,11 +205,13 @@ nav#main-navbar ul li a {
   width: 200px;
   padding: 20px 20px 20px 20px;
   border-radius: 4px;
+  text-decoration: none;
 }
 
 nav#main-navbar ul li a:hover {
   background: white;
   color: black;
+  text-decoration: none;
 }
 
 
