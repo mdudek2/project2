@@ -57,7 +57,6 @@ ul {
 
 #fixedwrapper {
   width: 960px;
-  height: 2700px;
   margin: 0 auto;
   border: 10px solid black;
   margin-top: 10px;
@@ -68,20 +67,20 @@ ul {
 
 #imagesf {
   float: left;
-  width: 400px;
+  width: 41%;
   margin-top: 20px;
   margin-left: 20px;
 }
 
 #mainf {
   float: left;
-  width: 520px;
+  width: 54%;
   margin-top: 20px;
+  padding-left: 2%;
 }
 
 #mainf p {
   float: left;
-  width: 500px;
   margin-left: 20px;
   font-family: "Times New Roman", Times, serif;
   font-size: 24px; 
